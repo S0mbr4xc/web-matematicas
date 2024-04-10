@@ -9,12 +9,6 @@
     --fuentePrincipal: 'Staatliches', cursive;
 }
 
-.buttons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
-
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -194,34 +188,37 @@ html {
     }
 
 }
-.formulario{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.espacio_calc{
+    display: flex;
     gap: 2rem;
+    flex-direction: column;
+    width: 45%;
+    padding: 4rem;
+    margin-left: 25%;
+    flex-wrap: wrap-reverse;
 }
-.formulario__campo{
-    border-color:var(--primarioObscuro);
-    border-width:1rem;
-    border-style: solid;
-    background-color: transparent;
-    color:var(--blanco);
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    padding:1rem;
-    appearance:none;
+.pantalla{
+    height: 2rem;
+    padding: 4rem;
+    width: 80%;
 }
-.formulario__submit{
+.botones{
+    margin-top: -1rem;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.numero{
     background-color: var(--secundario);
-    border: none;
+    border-radius: 0.4rem;
     font-size: 2rem;
     font-family: var(--fuentePrincipal);
-    padding:2rem;
-    transition:background-color .3s ease;
-    transition:font-size .3s ease;
-    grid-column: 1/3;
+    padding:5rem;
+    margin: 0.1rem;
+    transition:background-color .2s ease;
 }
-.formulario__submit:hover{
-    font-size: 2.4rem;
+.numero:hover{
     cursor:pointer;
     background-color: var(--primarioObscuro);
 }
