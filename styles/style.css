@@ -67,7 +67,7 @@ html {
       padding: 1rem 0;
       display: flex;
       justify-content: center;
-      gap: 2rem; /*Forma nueva de separar*/
+      gap: 3rem; /*Forma nueva de separar*/
   }
   .navegacion_final{
     background-color: var(--primarioObscuro);
