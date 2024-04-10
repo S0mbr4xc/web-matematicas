@@ -223,7 +223,7 @@ html {
 .formulario__submit:hover{
     font-size: 2.4rem;
     cursor:pointer;
-    background-color: var(--secundarioObscuro);
+    background-color: var(--primarioObscuro);
 }
 
   /*FOOTER*/
