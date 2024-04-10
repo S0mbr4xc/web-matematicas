@@ -9,6 +9,12 @@
     --fuentePrincipal: 'Staatliches', cursive;
 }
 
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
