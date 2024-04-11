@@ -209,10 +209,11 @@ html {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .numero{
     background-color: var(--secundario);
     border-radius: 0.4rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: var(--fuentePrincipal);
     padding:5rem;
     margin: 0.1rem;
@@ -222,6 +223,7 @@ html {
     cursor:pointer;
     background-color: var(--primarioObscuro);
 }
+
 
   /*FOOTER*/
   .footer{
