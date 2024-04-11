@@ -231,11 +231,17 @@ html {
   /*FOOTER*/
   .footer{
       background-color: var(--primarioObscuro);
-      padding: 1rem 0;
+      padding: 0.5rem;
       margin: 2rem;
+      text-align: center;
   }
   .footer__texto{
       font-family: var(--fuentePrincipal);
       text-align: center;
       font-size: 2.2rem;
   }
+  .texto__peque{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 0.1rem;
+}
