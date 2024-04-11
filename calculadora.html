@@ -21,13 +21,29 @@
     </nav>
 
     <div class="espacio_calc">
-        <input class="pantalla" type="text" id="show" readonly>
-        <div class="botones">
-                <button class="numero">7</button><button class="numero">8</button><button class="numero">9</button><button class="numero">÷</button>
-                <button class="numero">4</button><button class="numero">5</button><button class="numero">6</button><button class="numero">X</button>
-                <button class="numero">1</button><button class="numero">2</button><button class="numero">3</button><button class="numero">+</button>
-                <button class="numero">C</button><button class="numero">0</button><button class="numero">.</button><button class="numero">-</button>
-        </div>
+        <form name="calculadora">
+            <input class="pantalla" type="textfield" name="show" value="" autocomplete="off" readonly>
+            
+            <input type="button" value="7" onclick="document.calculadora.show.value+='7'">
+            <input type="button" value="8" onclick="document.calculadora.show.value+='8'">
+            <input type="button" value="9" onclick="document.calculadora.show.value+='9'">
+            <input type="button" value="+" onclick="document.calculadora.show.value+='+'">
+            <br>
+            <input type="button" value="4" onclick="document.calculadora.show.value+='4'">
+            <input type="button" value="5" onclick="document.calculadora.show.value+='5'">
+            <input type="button" value="6" onclick="document.calculadora.show.value+='6'">
+            <input type="button" value="-" onclick="document.calculadora.show.value+='-'">
+            <br>
+            <input type="button" value="1" onclick="document.calculadora.show.value+='1'">
+            <input type="button" value="2" onclick="document.calculadora.show.value+='2'">
+            <input type="button" value="3" onclick="document.calculadora.show.value+='3'">
+            <input type="button" value="X" onclick="document.calculadora.show.value+='*'">
+            <br>
+            <input type="reset" value="C">
+            <input type="button" value="0" onclick="document.calculadora.show.value+='0'">
+            <input type="button" value="=" onclick="document.calculadora.show.value=eval(document.calculadora.show.value)">
+            <input type="button" value="/" onclick="document.calculadora.show.value+='/'">
+        </form>
     </div>
 </body>
 </html>
