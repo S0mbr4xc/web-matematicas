@@ -222,6 +222,7 @@ html {
     margin: 0.1rem;
     transition:background-color .2s ease;
 }
+
 .numero:hover{
     cursor:pointer;
     background-color: var(--primarioObscuro);
